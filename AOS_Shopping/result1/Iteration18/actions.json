@@ -1,0 +1,29 @@
+[
+    {
+        "actionName": "T00_AOS",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "T01_HomePage",
+                "rawStartTime": 1609957138918,
+                "rawEndTime": 1609957142669,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "T02_Shop",
+                "rawStartTime": 1609957142673,
+                "rawEndTime": 1609957151477,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "T03_Purchase",
+                "rawStartTime": 1609957151517,
+                "rawEndTime": 1609957213502,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

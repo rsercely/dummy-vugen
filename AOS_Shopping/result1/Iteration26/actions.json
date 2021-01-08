@@ -1,0 +1,36 @@
+[
+    {
+        "actionName": "T00_AOS",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: some site",
+                "infFile": "t1.inf",
+                "time": 1609958079315
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "T01_HomePage",
+                "rawStartTime": 1609957890656,
+                "rawEndTime": 1609957895161,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "T02_Shop",
+                "rawStartTime": 1609957895165,
+                "rawEndTime": 1609957904583,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "T03_Purchase",
+                "rawStartTime": 1609957904588,
+                "rawEndTime": 1609958079315,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2926206588745117
+            }
+        ]
+    }
+]

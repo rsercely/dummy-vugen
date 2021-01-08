@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\demo\Documents\VuGen\Scripts\AOS_Shopping
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\demo\documents\vugen\scripts\aos_shopping\\logfile.log
+c:\users\demo\documents\vugen\scripts\aos_shopping\\combined_AOS_Shopping.c
+c:\users\demo\documents\vugen\scripts\aos_shopping\\pre_cci.c

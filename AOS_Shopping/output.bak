@@ -1,0 +1,471 @@
+Virtual User Script started at: 1/6/2021 10:41:08 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.3.0 for Windows 2019; build 356 (Sep 21 2020 19:30:48)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\demo\Documents\VuGen\Scripts\AOS_Shopping\\default.cfg"  	[MsgId: MMSG-27141]
+The addtional attribute TranTime was set to 2.000000
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.0328).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.0461).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+225.000000
+5.625000
+zz:1000:
+aa:1005:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.0466).
+Ending action Action.
+Ending iteration 1.
+Waiting 11.6770 seconds for iteration pacing.
+Starting iteration 2.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.4051).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.0628).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+1936.000000
+48.400000
+zz:1000:
+aa:1048:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.9525).
+Ending action Action.
+Ending iteration 2.
+Waiting 12.3140 seconds for iteration pacing.
+Starting iteration 3.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.2377).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.8112).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+5476.000000
+136.900000
+zz:1000:
+aa:1136:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.0245).
+Ending action Action.
+Ending iteration 3.
+Waiting 10.7290 seconds for iteration pacing.
+Starting iteration 4.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.5903).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.0337).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+10609.000000
+265.225000
+zz:1000:
+aa:1265:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.5350).
+Ending action Action.
+Ending iteration 4.
+Waiting 13.6260 seconds for iteration pacing.
+Starting iteration 5.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.9061).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.9536).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+18496.000000
+462.400000
+zz:1000:
+aa:1462:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.1877).
+Ending action Action.
+Ending iteration 5.
+Waiting 8.6810 seconds for iteration pacing.
+Starting iteration 6.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.4533).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.5941).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+26896.000000
+672.400000
+zz:1000:
+aa:1672:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.4061).
+Ending action Action.
+Ending iteration 6.
+Waiting 10.3090 seconds for iteration pacing.
+Starting iteration 7.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.1380).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.4979).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+36864.000000
+921.600000
+zz:1000:
+aa:1921:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.1411).
+Ending action Action.
+Ending iteration 7.
+Waiting 14.0080 seconds for iteration pacing.
+Starting iteration 8.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.8401).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.7634).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+51076.000000
+1276.900000
+zz:1000:
+aa:2276:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 2.9478).
+Ending action Action.
+Ending iteration 8.
+Waiting 11.2800 seconds for iteration pacing.
+Starting iteration 9.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.0624).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.3148).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+64009.000000
+1600.225000
+zz:1000:
+aa:2600:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.1396).
+Ending action Action.
+Ending iteration 9.
+Waiting 11.2430 seconds for iteration pacing.
+Starting iteration 10.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.1610).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.7827).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+80089.000000
+2002.225000
+zz:1000:
+aa:3002:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 2.9444).
+Ending action Action.
+Ending iteration 10.
+Waiting 13.8700 seconds for iteration pacing.
+Starting iteration 11.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.3147).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.9211).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+98596.000000
+2464.900000
+zz:1000:
+aa:3464:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.8242).
+Ending action Action.
+Ending iteration 11.
+Waiting 10.7830 seconds for iteration pacing.
+Starting iteration 12.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.2711).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.7067).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+119025.000000
+2975.625000
+zz:1000:
+aa:3975:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.4832).
+Ending action Action.
+Ending iteration 12.
+Waiting 10.3420 seconds for iteration pacing.
+Starting iteration 13.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.8716).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.4949).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+138384.000000
+3459.600000
+zz:1000:
+aa:4459:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.0156).
+Ending action Action.
+Ending iteration 13.
+Waiting 13.4050 seconds for iteration pacing.
+Starting iteration 14.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.3203).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.5627).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+163216.000000
+4080.400000
+zz:1000:
+aa:5080:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.2021).
+Ending action Action.
+Ending iteration 14.
+Waiting 12.6830 seconds for iteration pacing.
+Starting iteration 15.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.4051).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.3278).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+187489.000000
+4687.225000
+zz:1000:
+aa:5687:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.7827).
+Ending action Action.
+Ending iteration 15.
+Waiting 12.2110 seconds for iteration pacing.
+Starting iteration 16.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.8418).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.6974).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+214369.000000
+5359.225000
+zz:1000:
+aa:6359:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.3785).
+Ending action Action.
+Ending iteration 16.
+Waiting 13.8690 seconds for iteration pacing.
+Starting iteration 17.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.5796).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.3891).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+242064.000000
+6051.600000
+zz:1000:
+aa:7051:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.1306).
+Ending action Action.
+Ending iteration 17.
+Waiting 14.6270 seconds for iteration pacing.
+Starting iteration 18.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.9962).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.1700).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+276676.000000
+6916.900000
+zz:1000:
+aa:7916:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.7032).
+Ending action Action.
+Ending iteration 18.
+Waiting 9.8850 seconds for iteration pacing.
+Starting iteration 19.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.2796).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.9069).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+306916.000000
+7672.900000
+zz:1000:
+aa:8672:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.4996).
+Ending action Action.
+Ending iteration 19.
+Waiting 11.0760 seconds for iteration pacing.
+Starting iteration 20.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.3534).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.3573).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+339889.000000
+8497.225000
+zz:1000:
+aa:9497:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.1499).
+Ending action Action.
+Ending iteration 20.
+Waiting 13.9660 seconds for iteration pacing.
+Starting iteration 21.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.6102).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.1344).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+379456.000000
+9486.400000
+zz:1000:
+aa:10486:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.2556).
+Ending action Action.
+Ending iteration 21.
+Waiting 10.7540 seconds for iteration pacing.
+Starting iteration 22.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.0311).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.2188).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+413449.000000
+10336.225000
+zz:1000:
+aa:11336:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.4687).
+Ending action Action.
+Ending iteration 22.
+Waiting 13.0080 seconds for iteration pacing.
+Starting iteration 23.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.5785).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.9747).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+454276.000000
+11356.900000
+zz:1000:
+aa:12356:
+Action.c(68): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(68): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(69): web_url("some site") started  	[MsgId: MMSG-26355]
+Action.c(69): Found resource "http://www.advantageonlineshopping.com.com/js/parking.js?v=1609951920" in HTML "http://www.advantageonlineshopping.com.com/"  	[MsgId: MMSG-26659]
+Action.c(69): Error -26366: "Text=xxx qqq yyy" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(69): web_url("some site") highest severity level was "ERROR", 17352 body bytes, 668 header bytes, 32 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(69): Notify: Transaction "T03_Purchase" ended with a "Fail" status (Duration: 4.8222 Wasted Time: 0.0814).
+Action.c(69): Notify: Transaction "T03_Purchase" has 1 error message(s).
+Action.c(69): Notify: The 1st error message associated with transaction "T03_Purchase" is "Error -26366: "Text=xxx qqq yyy" not found for web_reg_find"
+Ending action Action.
+Ending iteration 23.
+Waiting 11.4010 seconds for iteration pacing.
+Starting iteration 24.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.4507).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.5612).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+492804.000000
+12320.100000
+zz:1000:
+aa:13320:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.2190).
+Ending action Action.
+Ending iteration 24.
+Waiting 12.5340 seconds for iteration pacing.
+Starting iteration 25.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.7666).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.7554).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+541696.000000
+13542.400000
+zz:1000:
+aa:14542:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.1223).
+Ending action Action.
+Ending iteration 25.
+Waiting 9.1380 seconds for iteration pacing.
+Starting iteration 26.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.6069).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.8127).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+580644.000000
+14516.100000
+zz:1000:
+aa:15516:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.5747).
+Ending action Action.
+Ending iteration 26.
+Waiting 12.7960 seconds for iteration pacing.
+Starting iteration 27.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.7090).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.1766).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+632025.000000
+15800.625000
+zz:1000:
+aa:16800:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.6738).
+Ending action Action.
+Ending iteration 27.
+Waiting 11.2360 seconds for iteration pacing.
+Starting iteration 28.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.0975).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.4653).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+675684.000000
+16892.100000
+zz:1000:
+aa:17892:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.4746).
+Ending action Action.
+Ending iteration 28.
+Waiting 12.7510 seconds for iteration pacing.
+Starting iteration 29.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.6328).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.5179).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+727609.000000
+18190.225000
+zz:1000:
+aa:19190:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.6067).
+Ending action Action.
+Ending iteration 29.
+Waiting 11.0070 seconds for iteration pacing.
+Starting iteration 30.
+Starting action Action.
+Action.c(36): Notify: Transaction "T01_HomePage" started.
+Action.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.9124).
+Action.c(40): Notify: Transaction "T02_Shop" started.
+Action.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.3120).
+Action.c(44): Notify: Transaction "T03_Purchase" started.
+783225.000000
+19580.625000
+zz:1000:
+aa:20580:
+Action.c(80): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.0309).
+Ending action Action.
+Ending iteration 30.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,596 @@
+Virtual User Script started at: 1/6/2021 12:09:57 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.3.0 for Windows 2019; build 356 (Sep 21 2020 19:30:48)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\demo\Documents\VuGen\Scripts\AOS_Shopping\\default.cfg"  	[MsgId: MMSG-27141]
+Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+The addtional attribute TranTime was set to 2.000000
+Warning: The transaction 'vuser_init_Transaction' is not started on NV transaction manager.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action T00_AOS.
+Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.8660).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.2815).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 3.5230).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 1.
+Waiting 13.2840 seconds for iteration pacing.
+Starting iteration 2.
+Starting action T00_AOS.
+Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.9931).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.8290).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: NV only support the ASCII characters, your transaction name does not meet the rule.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 4.3246).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 2.
+Waiting 10.0610 seconds for iteration pacing.
+Starting iteration 3.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.5777).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.0736).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 6.1692).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 3.
+Waiting 6.9700 seconds for iteration pacing.
+Starting iteration 4.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.5342).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.8352).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.9616).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 4.
+Waiting 7.3950 seconds for iteration pacing.
+Starting iteration 5.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.0514).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.4570).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.0165).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 5.
+Waiting 8.8650 seconds for iteration pacing.
+Starting iteration 6.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.5341).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.8829).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 7.8096).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 6.
+Waiting 9.4820 seconds for iteration pacing.
+Starting iteration 7.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.4674).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.4892).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 8.7790).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 7.
+Waiting 6.8100 seconds for iteration pacing.
+Starting iteration 8.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.4181).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.1414).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 8.3584).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 8.
+Waiting 9.0010 seconds for iteration pacing.
+Starting iteration 9.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.3678).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.9566).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 9.7383).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 9.
+Waiting 3.6320 seconds for iteration pacing.
+Starting iteration 10.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.5301).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.9199).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 12.3304).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 10.
+Waiting 3.9420 seconds for iteration pacing.
+Starting iteration 11.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.9768).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.9167).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 15.1524).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 11.
+Waiting 1.8090 seconds for iteration pacing.
+Starting iteration 12.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.2421).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.2462).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 16.1745).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 12.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 31.73).
+Starting iteration 13.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.7664).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.1304).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 18.5838).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 13.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 32.70).
+Starting iteration 14.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.2427).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.4392).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 20.2721).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 14.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 34.16).
+Starting iteration 15.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.6317).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.0430).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 24.9824).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 15.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 37.71).
+Starting iteration 16.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.4495).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.4855).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 27.8032).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 16.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 42.81).
+Starting iteration 17.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.0742).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 12.2650).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 5.3303).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 17.
+Waiting 8.2190 seconds for iteration pacing.
+Starting iteration 18.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.7511).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.8045).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 61.9851).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 18.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 75.31).
+Starting iteration 19.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.5934).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.2836).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 44.0409).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 19.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 59.18).
+Starting iteration 20.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.6579).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.9177).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 51.5689).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 20.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 66.19).
+Starting iteration 21.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.0615).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.7649).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 61.9118).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 21.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 77.05).
+Starting iteration 22.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.1687).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 11.7066).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 74.8081).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 22.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 90.88).
+Starting iteration 23.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 5.0368).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.9278).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 90.5626).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 23.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 105.59).
+Starting iteration 24.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.6063).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.2442).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 110.0996).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 24.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 124.53).
+Starting iteration 25.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.4045).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.9371).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 138.1957).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 25.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 153.64).
+Starting iteration 26.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.5048).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 9.4178).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(65): web_reg_find started  	[MsgId: MMSG-26355]
+T00_AOS.c(65): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+T00_AOS.c(66): web_url("some site") started  	[MsgId: MMSG-26355]
+T00_AOS.c(66): Found resource "http://www.advantageonlineshopping.com.com/js/parking.js?v=1609958052" in HTML "http://www.advantageonlineshopping.com.com/"  	[MsgId: MMSG-26659]
+T00_AOS.c(66): Error -26366: "Text=xxx qqq yyy" not found for web_reg_find  	[MsgId: MERR-26366]
+T00_AOS.c(66): web_url("some site") highest severity level was "ERROR", 17352 body bytes, 668 header bytes, 46 chunking overhead bytes  	[MsgId: MMSG-26387]
+T00_AOS.c(66): Notify: Transaction "T03_Purchase" ended with a "Fail" status (Duration: 174.7267 Wasted Time: 0.2926).
+T00_AOS.c(66): Notify: Transaction "T03_Purchase" has 1 error message(s).
+T00_AOS.c(66): Notify: The 1st error message associated with transaction "T03_Purchase" is "Error -26366: "Text=xxx qqq yyy" not found for web_reg_find"
+T00_AOS.c(66): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+T00_AOS.c(66): Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 26.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 188.74).
+Starting iteration 27.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.3092).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.6864).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 229.6095).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 27.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 245.02).
+Starting iteration 28.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.5921).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.3758).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 307.1229).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 28.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 320.97).
+Starting iteration 29.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 3.9366).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 10.4388).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 430.3650).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 29.
+Warning: Iteration pacing cannot be reached (pace time = 30.00, actual time = 445.33).
+Starting iteration 30.
+Starting action T00_AOS.
+Error: Failed to get transaction identifiers for 'T00_AOS_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(36): Notify: Transaction "T01_HomePage" started.
+T00_AOS.c(36): Error: Failed to get transaction identifiers for 'T01_HomePage' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(38): Notify: Transaction "T01_HomePage" ended with a "Pass" status (Duration: 4.4540).
+T00_AOS.c(38): Warning: The transaction 'T01_HomePage' is not started on NV transaction manager.
+T00_AOS.c(40): Notify: Transaction "T02_Shop" started.
+T00_AOS.c(40): Error: Failed to get transaction identifiers for 'T02_Shop' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(42): Notify: Transaction "T02_Shop" ended with a "Pass" status (Duration: 8.8045).
+T00_AOS.c(42): Warning: The transaction 'T02_Shop' is not started on NV transaction manager.
+T00_AOS.c(44): Notify: Transaction "T03_Purchase" started.
+T00_AOS.c(44): Error: Failed to get transaction identifiers for 'T03_Purchase' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+T00_AOS.c(77): Notify: Transaction "T03_Purchase" ended with a "Pass" status (Duration: 633.0700).
+T00_AOS.c(77): Warning: The transaction 'T03_Purchase' is not started on NV transaction manager.
+Warning: The transaction 'T00_AOS_Transaction' is not started on NV transaction manager.
+Ending action T00_AOS.
+Ending iteration 30.
+Ending Vuser...
+Starting action vuser_end.
+Error: Failed to get transaction identifiers for 'vuser_end_Transaction' from NV transaction manager. Reason: 'Invalid input. Test Token has unexpected format.'.
+Warning: The transaction 'vuser_end_Transaction' is not started on NV transaction manager.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Failed to get analysis resources location.
